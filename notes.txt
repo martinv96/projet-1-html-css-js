@@ -4,5 +4,8 @@ Ensuite on récupere le main en local.
 
 
         1 - cliquer sur main en bas de vscode
-        2 - 
+        2 - creer une nouvelle branche
+        3 - nommer la branche dev par défaut
+        4 - publish branche pour l'envoyer sur github
+        5 - 
 
