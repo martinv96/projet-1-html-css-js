@@ -1,0 +1,37 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-size: xx-large;
+    display: inline-block;
+    border-bottom: 3px solid red;
+}
+
+.history-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 220px;
+}
+
+.bloc1-histoire, .bloc2-histoire{
+    text-align: justify;
+    width: 48%;
+}
+
+.bloc1-histoire{
+    text-align: left;
+}
+
+.bloc2-histoire{
+    text-align: right;
+}

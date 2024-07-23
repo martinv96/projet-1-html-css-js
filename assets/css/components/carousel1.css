@@ -1,0 +1,56 @@
+main {
+    position: relative;
+    text-align: center;
+}
+
+.hero-container {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(233, 12, 12);
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.hotel {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+.carousel1 {
+    position: relative;
+    max-width: 100%;
+    height: 640px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
