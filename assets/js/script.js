@@ -51,7 +51,29 @@ let slideIndex2 = 0;
         changeSlide2(1);
     });
 
+let slideIndex3 = 1;
+showSlides3(slideIndex3);
 
+function showSlides3(n) {
+    let slides3 = document.querySelectorAll('.carousel3-images img');
+    let dots = document.querySelectorAll('.pagination-dot');
+    if (n > slides3.length) {slideIndex3 = 1}
+    if (n < 1) {slideIndex3 = slides3.length}
+    slides3.forEach((slide, index) => {
+        slide.style.transform = `translateX(${- (slideIndex3 - 1) * 100}%)`;
+    });
+    dots.forEach((dot,index)=> {
+        dot.className = dot.className.replace('active','');
+    });
+    dots[slideIndex3 - 1].className += ' active';
+}
 
+function currentSlide(n) {
+    showSlides3(slideIndex3 = n);
+}
 
-})
+document.querySelectorAll('.pagination-dot').forEach((dot,index) =>{
+    dot.addEventListener('click',() => currentSlide(index+1));
+});
+
+});
