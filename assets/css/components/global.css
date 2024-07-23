@@ -82,7 +82,7 @@ h1 {
     z-index: 10;
 }
 
-.carousel {
+.carousel1 {
     position: relative;
     max-width: 100%;
     height: 640px;
@@ -139,6 +139,56 @@ h2 {
 
 .bloc2-histoire{
     text-align: right;
+}
+
+.carousel-container2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#carousel2 {
+    position: relative;
+    width: 717px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#carousel2 .carousel-images2 {
+    width: 1434px; /* width = number of images * 400px (image width) */
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+#carousel2 .carousel-images2 img {
+    width: 717px; /* image width */
+    height: 600px; /* image height */
+    object-fit: cover;
+}
+
+#carousel2 .prev, #carousel2 .next {
+    position: absolute;
+    bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+}
+
+#carousel2 .prev {
+    left: 20px;
+}
+
+#carousel2 .next {
+    left: 50px;
+}
+
+#carousel2 .prev:hover, #carousel2 .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 
