@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #000000;
+}
+
+.telephone {
+    width: 100%;
+    height: 10px;
+    background-color: #000000;
+    color: white;
+    margin-bottom: 5px;
+    font-size: x-small;
+    text-align: center;
+}
+
+.reserve-button {
+    padding: 10px 20px;
+    background-color: #d83924;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+.hero-container {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(233, 12, 12);
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.hotel {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    height: 640px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-size: xx-large;
+    display: inline-block;
+    border-bottom: 3px solid red;
+}
+
+.history-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.bloc1-histoire, .bloc2-histoire{
+    text-align: justify;
+    width: 48%;
+}
+
+.bloc1-histoire{
+    text-align: left;
+}
+
+.bloc2-histoire{
+    text-align: right;
+}
