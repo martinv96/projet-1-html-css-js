@@ -125,6 +125,7 @@ h2 {
     justify-content: space-between;
     padding: 20px;
     margin-top: 30px;
+    margin-bottom: 250px;
 }
 
 .bloc1-histoire, .bloc2-histoire{
@@ -139,3 +140,5 @@ h2 {
 .bloc2-histoire{
     text-align: right;
 }
+
+

@@ -1,3 +1,9 @@
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    
+
+
 let slideIndex = 0;
 showSlides(slideIndex);
 
@@ -19,3 +25,6 @@ function showSlides(n) {
 setInterval(() => {
     changeSlide(1);
 }, 3000); // Change image every 3 seconds
+
+
+})

@@ -1,0 +1,8 @@
+ajouter une nouvelle branche sur github en local que l'on va pusher sur github
+le but est de fusionner par la suite notre branche en local sur le main de github. 
+Ensuite on récupere le main en local.
+
+
+        1 - cliquer sur main en bas de vscode
+        2 - 
+
