@@ -48,7 +48,8 @@
 }
 
 .carousel3-text h2 {
-    margin: 10px;
+    margin-top: -100px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
