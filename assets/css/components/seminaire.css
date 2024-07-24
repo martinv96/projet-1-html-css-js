@@ -1,0 +1,85 @@
+
+.seminaire-header-container h2 {
+    padding-top: 40px;
+}
+
+
+.header-content {
+padding-top: 20px;
+text-align: center;
+}
+
+.header-content p {
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+
+.description-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.text-container {
+    flex: 0 0 595px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+
+
+.text-seminaire {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: -30px;
+}
+
+
+.text-seminaire h2 {
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.text-seminaire-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.text-seminaire img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
+.text-seminaire p {
+    position: relative;
+    top: 10px;
+    margin: 0;
+    flex: 1;
+    font-size: small;
+}
+
+.seminaire-img {
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.seminaire-img img {
+    position: relative;
+    right: 15px;
+    top: 160px;
+    width: 500px;
+    height: auto;
+}
