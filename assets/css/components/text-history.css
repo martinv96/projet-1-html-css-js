@@ -5,7 +5,7 @@
 
 
 h2 {
-    padding-top: 40px;
+    padding-top: 100px;
     justify-content: center;
     align-items: center;
     color: rgb(3, 3, 3);
@@ -19,8 +19,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 220px;
+    margin-top: 40px;
+    margin-bottom: 110px;
 }
 
 .bloc1-histoire, .bloc2-histoire{
@@ -30,8 +30,10 @@ h2 {
 
 .bloc1-histoire{
     text-align: left;
+    text-align: justify;
 }
 
 .bloc2-histoire{
     text-align: right;
+    text-align: justify;
 }
