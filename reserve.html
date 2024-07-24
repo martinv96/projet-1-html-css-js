@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
 </head>
+
 <body>
-    <h1>saisir vos dates</h1>
-    
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./index.html">
+            <img src="./assets/img/hotel-de-bourgtheroulde-logos-002.svg" alt="">
+        </a>
+        </div>
+        <div class="button-container">
+            <div class="telephone">+33 2 35 14 50 50</div>
+            <a href="./reserve.html">
+                <button class="reserve-button">Réserver</button>
+            </a>
+
+        </div>
+
+
+    </nav>
+
+    <h1 class="titre-form">Saisir vos dates</h1>
+
+    <form class="reservation-form">
+        <div class="form-group-section">
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="form-group">
+                <label for="rooms">Nombre de chambres:</label>
+                <select id="rooms" name="rooms">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="occupants">Nombre d'occupants:</label>
+                <select id="occupants" name="occupants">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+        </div>
+        <button type="button" class="result-button">Afficher les résultats</button>
+    </form>
+
+
+    <div class="telephone-section">
+        <h2 class="tel-title">Réserver par téléphone</h2>
+        <p class="text-tel">Appelez le +(1) 866 580 6279 (appel gratuit) depuis le Canada ou les États-Unis, 
+            <br>
+            ou 0800 1927 1927 depuis la France (ou l’un de nos numéros de téléphone de réservation à l’international).</p>
+    </div>
+
+
+    <footer class="footer-container">
+
+        <div class="section-footer-1">
+            <div class="adresse">
+                <p>Hotel de Bourgtheroulde, 15 Place de la Pucelle, 76000 Rouen
+                    <br>
+                    <br>
+                    Tél : +33 2 35 14 50 50 - hotel@hotelsparouen.com
+                </p>
+            </div>
+            <div class="reseaux">
+                <p class="connecte">Restez connectés</p>
+                <div class="icon">
+                    <img src="./assets/img/icons8-instagram-24.png" alt="insta-icon">
+                    <img src="./assets/img/icons8-x-24.png" alt="x-icon">
+                    <img src="./assets/img/icons8-facebook-24.png" alt="facebook-icon">
+                    <img src="./assets/img/icons8-youtube-24.png" alt="youtube-icon">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-footer-3">
+            <img class="logo1" src="./assets/img/hotel-de-bourgtheroulde-logos-017.jpg" alt="">
+            <img class="logo2" src="./assets/img/hotel-de-bourgtheroulde-logos-015.jpg" alt="">
+            <img class="logo3" src="./assets/img/hotel-de-bourgtheroulde-logos-016.jpg" alt="">
+        </div>
+
+        <div class="section-footer-4">
+            <p>Hôtel proche plage du débarquement Marriott hotel France Elegant bar Rouen Hôtel romantique Rouen Hotel
+                Rouen city center Location salle réunion Rouen Hôtel Luxe Normandie Hôtel SPA Normandie Hôtel séminaire
+                Rouen Brunch Rouen Restaurant Bourgtheroulde Hôtel SPA 5 étoiles Normandie Hôtel Spa Rouen
+                Thalassothérapie Rouen Hôtel 5 étoiles Rouen Hôtel Business Rouen</p>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
