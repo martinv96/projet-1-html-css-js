@@ -11,8 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
+    background-color: white;
 }
 
 .logo img {
@@ -39,7 +38,7 @@
 }
 
 .reserve-button {
-    padding: 10px 20px;
+    padding: 10px 35px;
     background-color: #d83924;
     color: white;
     border: none;

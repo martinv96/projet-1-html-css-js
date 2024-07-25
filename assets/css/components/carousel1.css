@@ -61,7 +61,7 @@ h1 {
 }
 
 
-.hotel-overlay {
+.hotel-reserver {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -76,7 +76,7 @@ h1 {
     
 }
 
-.overlay-section {
+.dates-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +86,7 @@ h1 {
     height: 100%;
 }
 
-.overlay-section h2{
+.dates-section h2{
     margin:5px 0;
     font-size: 23px;
     color: white;
@@ -94,7 +94,7 @@ h1 {
     
 }
 
-.overlay-section p {
+.dates-section p {
     margin-bottom:95px;
     font-size: 14px;
 }
@@ -115,11 +115,12 @@ h1 {
     color: white;
 }
 
-.reserve-button {
+.reserve-button2 {
     padding: 10px 20px;
     background-color: #d83924;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 4px;
 }
