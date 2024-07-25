@@ -37,3 +37,38 @@ h2 {
     text-align: right;
     text-align: justify;
 }
+
+@media (max-width: 600px) {
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        padding-top: 50px;
+        font-size: large;
+        border-bottom: 2px solid red;
+    }
+
+    .history-container {
+        display: block;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 1px;
+    }
+
+    .bloc1-histoire, .bloc2-histoire {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .bloc1-histoire {
+        text-align: left;
+    }
+
+    .bloc2-histoire {
+        text-align: left;
+    }
+}

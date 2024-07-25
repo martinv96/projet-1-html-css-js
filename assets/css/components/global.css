@@ -47,3 +47,33 @@
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
+
+/* Styles pour les petits écrans */
+@media (max-width: 600px) {
+    .navbar {
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .telephone {
+        height: 20px;
+        font-size: x-small;
+        margin-bottom: 1px;
+        margin-top: 8px;
+    }
+
+    .reserve-button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}

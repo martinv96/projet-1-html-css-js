@@ -126,3 +126,57 @@
     text-align: center;
     
 }
+
+
+/* Styles pour les petits écrans */
+@media (max-width: 600px) {
+    .section-footer-1,
+    .section-footer-2,
+    .section-footer-3,
+    .section-footer-4 {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        height: auto;
+    }
+
+    .connecte, .icon {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .newsletter {
+        position: static;
+        margin-top: 10px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        left: 0;
+    }
+
+    .newsletter-form input[type="email"] {
+        max-width: 100%;
+    }
+
+    .newsletter-form button {
+        position: static;
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .test {
+        font-size: small;
+        text-align: center;
+    }
+
+    .logo1,
+    .logo2,
+    .logo3 {
+        height: auto;
+        width: 25%;
+        margin-bottom: 10px;
+    }
+}

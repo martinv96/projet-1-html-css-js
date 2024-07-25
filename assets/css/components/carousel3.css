@@ -101,3 +101,74 @@
 .pagination-dot.active {
     background-color: #717171;
 }
+
+
+/* Styles pour les petits écrans */
+@media (max-width: 600px) {
+    .carousel3-section {
+        padding: 10px;
+    }
+
+    .carousel3-size {
+        max-width: 100%;
+    }
+
+    .carousel3-container {
+        height: auto;
+    }
+
+    .carousel3-images {
+        width: 100%;
+    }
+
+    .carousel3-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel3-text {
+        position: absolute;
+        top:10%;
+        left: 8%;
+        width: 400px;
+        height: 250px;
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        border: 2px solid red;
+        background-color: rgba(179, 179, 179, 0.6);
+    }
+
+    .carousel3-text h2 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .carousel3-text p {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .chambre-button {
+        margin: 10px 0;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .reserve2-button {
+        position: absolute;
+        margin: 0;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .carousel-pagination {
+        margin-top: 5px;
+    }
+
+    .pagination-dot {
+        width: 8px;
+        height: 8px;
+        margin: 0 3px;
+    }
+}

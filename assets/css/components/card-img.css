@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin-right: 85px;
+    margin-left: 65px;
 }
 
 .image-seminaire {
@@ -69,4 +71,30 @@
 
 .image-overlay:hover {
     background-color: rgba(48, 47, 47, 0.7); /* Slightly more opaque on hover */
+}
+
+@media (max-width: 600px) {
+    .images-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    .image-seminaire, .image-spa, .image-cadeaux, .image-contact {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+
+    }
+
+    .image-container img {
+        flex-direction: column;
+        height: auto;
+        padding-top: 55px;
+    }
 }
