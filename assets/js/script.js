@@ -57,10 +57,11 @@ showSlides3(slideIndex3);
 function showSlides3(n) {
     let slides3 = document.querySelectorAll('.carousel3-images img');
     let dots = document.querySelectorAll('.pagination-dot');
-    if (n > slides3.length) {slideIndex3 = 1}
-    if (n < 1) {slideIndex3 = slides3.length}
+    if (n > slides3.length) {slideIndex3 = slides3.length}
+    if (n < 1) {slideIndex3 = 1}
     slides3.forEach((slide, index) => {
         slide.style.transform = `translateX(${- (slideIndex3 - 1) * 100}%)`;
+        slide.style.transition = 'transform 0.5s ease-in-out'; // ajout de la transition ici
     });
     dots.forEach((dot,index)=> {
         dot.className = dot.className.replace('active','');
