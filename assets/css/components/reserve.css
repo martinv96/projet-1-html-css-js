@@ -75,5 +75,16 @@ body {
     width: 100%;
     text-align: left;
     padding: 20px;
-    padding-bottom: 170px;
+    padding-bottom: 130px;
+}
+
+.image-rouens {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    top:27%;
+    right:2%;
+    width: 600px;
+    height: 500px;
+    border-radius: 4px;
 }

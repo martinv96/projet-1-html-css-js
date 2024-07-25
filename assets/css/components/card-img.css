@@ -9,6 +9,7 @@
     width: 300px;
     height: 300px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .image-spa {
@@ -16,6 +17,7 @@
     width: 300px;
     height: 300px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .image-cadeaux {
@@ -23,6 +25,7 @@
     width: 300px;
     height: 300px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .image-contact {
@@ -30,6 +33,7 @@
     width: 300px;
     height: 300px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .image-container img {

@@ -38,6 +38,7 @@
     width: 717px;
     height: 600px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 #carousel2 .carousel-images2 {
