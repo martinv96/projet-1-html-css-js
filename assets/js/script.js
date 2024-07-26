@@ -22,7 +22,7 @@ function showSlides(n) {
 
 setInterval(() => {
     changeSlide(1);
-}, 3000); // Change image every 3 seconds
+}, 3000);
 
 
 let slideIndex2 = 0;
@@ -61,7 +61,7 @@ function showSlides3(n) {
     if (n < 1) {slideIndex3 = 1}
     slides3.forEach((slide, index) => {
         slide.style.transform = `translateX(${- (slideIndex3 - 1) * 100}%)`;
-        slide.style.transition = 'transform 0.5s ease-in-out'; // ajout de la transition ici
+        slide.style.transition = 'transform 0.5s ease-in-out'; 
     });
     dots.forEach((dot,index)=> {
         dot.className = dot.className.replace('active','');
