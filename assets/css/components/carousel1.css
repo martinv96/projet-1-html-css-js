@@ -132,18 +132,20 @@ h1 {
     }
 
     .button-hotel {
-        top: 75%;
+        top: 65%;
         font-size: 14px;
         padding: 8px 16px;
     }
 
     .carousel1 {
         height: 300px;
+        width: 100%;
     }
 
     .hotel-reserver {
-        height: 100px;
+        height: 110px;
         padding: 0px 0;
+        z-index: -1;
     }
 
     .dates-section h2 {
@@ -173,11 +175,12 @@ h1 {
         position: absolute;
         font-size: 14px;
         padding: 8px 16px;
-        top:42%;
+        top:52%;
         right:7%;
+        z-index: 10;
     }
 
-    .test {
+    .dates {
         position: relative;
         left:1%;
     }
