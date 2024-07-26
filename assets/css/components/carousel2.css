@@ -49,8 +49,8 @@
 }
 
 #carousel2 .carousel-images2 img {
-    width: 717px; /* image width */
-    height: 600px; /* image height */
+    width: 717px;
+    height: 600px;
     object-fit: cover;
 }
 
