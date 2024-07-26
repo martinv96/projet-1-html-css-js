@@ -11,8 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
+    background-color: white;
 }
 
 .logo img {
@@ -24,6 +23,7 @@
     flex-direction: column;
     align-items: flex-end;
     background-color: #000000;
+    border-radius: 3px;
 }
 
 .telephone {
@@ -32,113 +32,48 @@
     background-color: #000000;
     color: white;
     margin-bottom: 5px;
+    margin-top: 2px;
     font-size: x-small;
     text-align: center;
 }
 
 .reserve-button {
-    padding: 10px 20px;
+    padding: 10px 35px;
     background-color: #d83924;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
-}
-
-main {
-    position: relative;
-    text-align: center;
-}
-
-.hero-container {
-    position: relative;
-}
-
-h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(233, 12, 12);
-    font-size: xx-large;
-    text-align: center;
-    width: 100%;
-    z-index: 10;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }
 
 
-.hotel {
-    position: absolute;
-    top: 57%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    margin-bottom: 20px;
-    z-index: 10;
+@media (max-width: 600px) {
+    .navbar {
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .telephone {
+        height: 20px;
+        font-size: x-small;
+        margin-bottom: 1px;
+        margin-top: 8px;
+    }
+
+    .reserve-button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
 }
-
-.carousel {
-    position: relative;
-    max-width: 100%;
-    height: 640px;
-    margin: auto;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.carousel-images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-images img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-.title-container{
-    display: flex;
-    justify-content: center;
-}
-
-
-h2 {
-    padding-top: 40px;
-    justify-content: center;
-    align-items: center;
-    color: rgb(3, 3, 3);
-    text-align: center;
-    font-size: xx-large;
-    display: inline-block;
-    border-bottom: 3px solid red;
-}
-
-.history-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 250px;
-}
-
-.bloc1-histoire, .bloc2-histoire{
-    text-align: justify;
-    width: 48%;
-}
-
-.bloc1-histoire{
-    text-align: left;
-}
-
-.bloc2-histoire{
-    text-align: right;
-}
-
-

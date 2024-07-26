@@ -1,0 +1,149 @@
+.main-container img{
+    position: relative;
+    width: 100%;
+    height: 652px;
+    z-index: 1;
+}
+
+.form-container {
+    position: absolute;
+    top: 25%;
+    left: 31%;
+    height: 450px;
+    width: 550px;
+    z-index: 3;
+    border: 2px solid red;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-form input {
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    max-width: 600px;
+}
+
+.title-form1 {
+    position:absolute;
+    top:10%;
+    font-weight: 700;
+    font-size: large;
+}
+
+
+.contact-form p {
+    margin-bottom: 5px;
+
+}
+
+.nom-p {
+    position: relative;
+    right: 20%;
+}
+
+.LastName {
+    position: relative;
+    right: 20%;
+    width: 200px;
+}
+
+.prenom-p {
+    position: absolute;
+    left: 50%;
+}
+
+.FirstName {
+    position: absolute;
+    left: 50%;
+    top: 23.1%;
+}
+
+.tel-p {
+    position: relative;
+    right: 20%;
+}
+
+.Telephone {
+    position: relative;
+    right: 20%;
+    width: 200px;
+}
+
+.mail-p {
+    position: absolute;
+    top:34.8%;
+    right: 43.5%;
+}
+
+.Email {
+    position: absolute;
+    top:39.5%;
+    left: 50%;
+}
+
+.mes-p {
+    position: relative;
+    right: 20%;
+}
+
+.contact-form .Message {
+    width: 70%;
+    height: 100px;
+    position: relative;
+    right: 20%;
+}
+
+.contact-form button {
+    position: absolute;
+    top:63%;
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #d83924;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+
+    .form-container {
+        position: absolute;
+        width: 90%;
+        left: 2%;
+        top: 20%;
+    }
+
+    .contact-form {
+        width: 50%;
+    }
+
+    .contact-form input, .contact-form textarea {
+        width: 40%;
+    }
+
+    .contact-form input .Message {
+        width: 60%;
+    }
+    
+    .contact-form button {
+        width: 50%;
+        bottom: 5%;
+
+    }
+    .mail-p {
+        left: 50%;
+    }
+}

@@ -1,0 +1,125 @@
+.container {
+    
+    margin: 20px;
+}
+
+
+section {
+    width: 412px;
+    height: 441px;
+    padding: 5px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+}
+
+
+.piscine {
+    position: relative;
+    right:28%;
+}
+
+.piscine h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.piscine p {
+    display: flex;
+    text-align: justify;
+}
+
+.cabines-de-soin {
+    position: relative;
+    left: 27%;
+}
+
+.cabines-de-soin h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.cabines-de-soin p {
+    display: flex;
+    text-align: justify;
+}
+
+.piscine img {
+    width: 665px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cabines-de-soin img {
+    width: 535px;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.piscine img {
+    position: absolute;
+    top: 15%;
+    left: 450px;
+}
+
+.cabines-de-soin img {
+    position: absolute;
+    top: 7%;
+    right: 450px;
+}
+
+.content {
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .piscine img {
+        max-width: 60%;
+        max-height: 15%;
+        margin: 0 auto;
+        position: absolute;
+        top:82%;
+        left: 20%;
+
+    }
+
+    .cabines-de-soin img {
+        max-width: 70%;
+        max-height: 45%;
+        margin: 0 auto;
+        position: absolute;
+        top: 62%;
+        left: 15%;
+    }
+
+    .piscine,
+    .cabines-de-soin {
+        text-align: center;
+    }
+
+    .piscine h2,
+    .cabines-de-soin h2,
+    .piscine p,
+    .cabines-de-soin p {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    section {
+        margin: 10px;
+        width: calc(100% - 20px);
+    }
+
+    .piscine {
+        right: 0;
+    }
+
+    .cabines-de-soin {
+        left: 0;
+    }
+}

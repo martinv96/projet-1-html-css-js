@@ -1,0 +1,189 @@
+main {
+    position: relative;
+    text-align: center;
+}
+
+.hotel-container {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.button-hotel {
+    position: absolute;
+    top: 57%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(189, 184, 184, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+
+.button-hotel:hover {
+    background-color: rgba(212, 207, 207, 0.8);
+}
+
+.carousel1 {
+    position: relative;
+    max-width: 100%;
+    height: 640px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.hotel-reserver {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    box-sizing: border-box;
+    padding: 10px 0;
+    
+}
+
+.dates-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    height: 100%;
+}
+
+.dates-section h2{
+    margin:5px 0;
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.dates-section p {
+    margin-bottom:95px;
+    font-size: 14px;
+}
+
+.nights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.night-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    margin-bottom:55px;
+    cursor: pointer;
+    color: white;
+}
+
+.reserve-button2 {
+    padding: 10px 20px;
+    background-color: #d83924;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+        top: 45%;
+    }
+
+    .button-hotel {
+        top: 65%;
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .carousel1 {
+        height: 300px;
+        width: 100%;
+    }
+
+    .hotel-reserver {
+        height: 110px;
+        padding: 0px 0;
+        z-index: -1;
+    }
+
+    .dates-section h2 {
+        position: relative;
+        font-size: 18px;
+        right:120%;
+    }
+
+    .dates-section p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .nights p {
+        position: relative;
+        right: 200%;
+    }
+
+    .night-btn {
+        position: relative;
+        font-size: 20px;
+        margin-bottom: 10px;
+        right: 200%;
+    }
+
+    .reserve-button2 {
+        position: absolute;
+        font-size: 14px;
+        padding: 8px 16px;
+        top:52%;
+        right:7%;
+        z-index: 10;
+    }
+
+    .dates {
+        position: relative;
+        left:1%;
+    }
+
+}
+

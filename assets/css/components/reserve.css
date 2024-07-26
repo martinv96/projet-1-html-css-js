@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.titre-form {
+    position: relative;
+    margin: 40px 0;
+    text-align: center;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.reservation-form {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -22px;
+    margin-left: -750px;
+}
+
+.form-group-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group select, .form-group input[type="date"] {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.result-button {
+    position: absolute;
+    align-self: center;
+    top:39%;
+    left:34%;
+    padding: 10px 20px;
+    background-color: rgb(217, 217, 217);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.result-button:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.footer-container {
+    margin-top: auto;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.icon img {
+    margin: 0 5px;
+}
+
+.text-tel {
+    padding-top: 15px;
+}
+
+
+.telephone-section {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 130px;
+}
+
+.image-rouens {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    top:27%;
+    right:2%;
+    width: 600px;
+    height: 500px;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 600px) {
+    .titre-form {
+        margin: 20px 0;
+        font-size: 18px;
+    }
+
+    .reservation-form {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .form-group-section {
+        width: 80%;
+        gap: 5px;
+    }
+
+    .result-button {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        padding: 10px;
+    }
+
+    .telephone-section {
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .image-rouens {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,77 @@
+.parallax-section{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.parallax-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../img/hotel-de-bourgtheroulde-restaurant-025.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.parallax-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    color:black;
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.parallax-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    font-size: 15px;
+}
+
+.parallax-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .parallax-section {
+        height: 300px;
+    }
+
+    .parallax-content {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .parallax-content h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .parallax-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

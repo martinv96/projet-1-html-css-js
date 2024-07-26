@@ -1,0 +1,74 @@
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    font-size: xx-large;
+    display: inline-block;
+    border-bottom: 3px solid red;
+}
+
+.history-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+.bloc1-histoire, .bloc2-histoire{
+    text-align: justify;
+    width: 48%;
+}
+
+.bloc1-histoire{
+    text-align: left;
+    text-align: justify;
+}
+
+.bloc2-histoire{
+    text-align: right;
+    text-align: justify;
+}
+
+@media (max-width: 600px) {
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        padding-top: 50px;
+        font-size: large;
+        border-bottom: 2px solid red;
+    }
+
+    .history-container {
+        display: block;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 1px;
+    }
+
+    .bloc1-histoire, .bloc2-histoire {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .bloc1-histoire {
+        text-align: left;
+    }
+
+    .bloc2-histoire {
+        text-align: left;
+    }
+}
