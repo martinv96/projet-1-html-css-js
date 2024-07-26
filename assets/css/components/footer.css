@@ -140,14 +140,32 @@
         height: auto;
     }
 
-    .connecte, .icon {
-        position: static;
+    .adresse {
+        text-align: center;
+    }
+
+    .connecte {
+        position: relative;
         margin-top: 10px;
+        margin-bottom: 4px;
+        left: 14%;
+    }
+
+    .icon {
+        position: relative;
+        left: -1% ;
     }
 
     .newsletter {
-        position: static;
+        position: relative;
         margin-top: 10px;
+        right:12%;
+
+    }
+
+    .newsletter p {
+        position: relative;
+        left: 2%;
     }
 
     .newsletter-form {
@@ -162,9 +180,10 @@
     }
 
     .newsletter-form button {
-        position: static;
+        position: absolute;
         margin-top: 10px;
-        width: 80%;
+        width: 42%;
+        top:-4%
     }
 
     .test {

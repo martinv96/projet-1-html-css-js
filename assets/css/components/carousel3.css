@@ -129,7 +129,7 @@
     .carousel3-text {
         position: absolute;
         top:10%;
-        left: 8%;
+        left: 5%;
         width: 400px;
         height: 250px;
         padding: 10px;
@@ -157,6 +157,8 @@
 
     .reserve2-button {
         position: absolute;
+        bottom: 15%;
+        right: 8%;
         margin: 0;
         padding: 8px 16px;
         font-size: 14px;
