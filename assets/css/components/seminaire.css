@@ -85,7 +85,7 @@ text-align: center;
 }
 
 
-/* Styles pour les petits écrans */
+
 @media (max-width: 600px) {
     .seminaire-header-container h2 {
         padding-top: 20px;
@@ -143,9 +143,22 @@ text-align: center;
     }
 
     .seminaire-img img {
-        left: 30%;
+        left: 6%;
         top: 0;
         width: 100%;
         max-width: 300px;
+    }
+
+    .footer-container {
+        padding: 0;
+        padding-left: 0;
+        
+    }
+
+    .connecte {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 4px;
+        left: 1%;
     }
 }

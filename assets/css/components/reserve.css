@@ -90,7 +90,7 @@ body {
     border-radius: 4px;
 }
 
-/* Styles pour les petits écrans */
+
 @media (max-width: 600px) {
     .titre-form {
         margin: 20px 0;

@@ -53,7 +53,7 @@
     padding-top: 10px;
 }
 
-/* Styles pour les petits écrans */
+
 @media (max-width: 600px) {
     .parallax-section {
         height: 300px;

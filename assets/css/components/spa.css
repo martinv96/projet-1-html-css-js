@@ -63,13 +63,13 @@ section {
 .piscine img {
     position: absolute;
     top: 15%;
-    left: 450px; /* Adjust this value based on your layout */
+    left: 450px;
 }
 
 .cabines-de-soin img {
     position: absolute;
     top: 7%;
-    right: 450px; /* Adjust this value based on your layout */
+    right: 450px;
 }
 
 .content {
@@ -78,22 +78,22 @@ section {
 
 @media (max-width: 600px) {
     .piscine img {
-        max-width: 80%;
-        max-height: 35%;
+        max-width: 60%;
+        max-height: 15%;
         margin: 0 auto;
         position: absolute;
-        top:62%;
-        left: 10%;
+        top:82%;
+        left: 20%;
 
     }
 
     .cabines-de-soin img {
-        max-width: 80%;
-        max-height: 35%;
+        max-width: 70%;
+        max-height: 45%;
         margin: 0 auto;
         position: absolute;
-        top: 58%;
-        left: 10%;
+        top: 62%;
+        left: 15%;
     }
 
     .piscine,
@@ -107,6 +107,7 @@ section {
     .cabines-de-soin p {
         display: block;
         text-align: center;
+        padding: 5px;
     }
 
     section {

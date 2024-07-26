@@ -5,7 +5,7 @@
 }
 
 .spa-text {
-    width: 40%; /* Ajustez la largeur selon vos besoins */
+    width: 40%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
 }
 
 #carousel2 .carousel-images2 {
-    width: 1434px; /* width = number of images * 400px (image width) */
+    width: 1434px;
     height: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out;
