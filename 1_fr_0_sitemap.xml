@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/index.html</loc>
+  <lastmod>2024-07-26T11:22:09+00:00</lastmod>
+  <priority>1.00</priority>
+        <image:image>
+            <image:loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/assets/img/hotel-de-bourgtheroulde-logos-002.svg</image:loc>
+            <image:caption>Logo de l'Hotel Bourgtheroulde</image:caption>
+            <image:title>Hotel Bourgtheroulde</image:title>
+            <image:geo_location>Rouen, France</image:geo_location>
+        </image:image>
+</url>
+<url>
+  <loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/reserve.html</loc>
+  <lastmod>2024-07-26T08:06:32+00:00</lastmod>
+  <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/assets/img/hotel-de-bourgtheroulde-logos-002.svg</image:loc>
+            <image:caption>Logo de l'Hotel Bourgtheroulde</image:caption>
+            <image:title>Hotel Bourgtheroulde</image:title>
+            <image:geo_location>Rouen, France</image:geo_location>
+        </image:image>
+</url>
+<url>
+  <loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/seminaire.html</loc>
+  <lastmod>2024-07-26T08:06:33+00:00</lastmod>
+  <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/assets/img/hotel-de-bourgtheroulde-logos-002.svg</image:loc>
+            <image:caption>Logo de l'Hotel Bourgtheroulde</image:caption>
+            <image:title>Hotel Bourgtheroulde</image:title>
+            <image:geo_location>Rouen, France</image:geo_location>
+        </image:image>
+</url>
+<url>
+  <loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/spa.html</loc>
+  <lastmod>2024-07-26T08:06:33+00:00</lastmod>
+  <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/assets/img/hotel-de-bourgtheroulde-logos-002.svg</image:loc>
+            <image:caption>Logo de l'Hotel Bourgtheroulde</image:caption>
+            <image:title>Hotel Bourgtheroulde</image:title>
+            <image:geo_location>Rouen, France</image:geo_location>
+        </image:image>
+</url>
+<url>
+  <loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/contact.html</loc>
+  <lastmod>2024-07-26T08:05:55+00:00</lastmod>
+  <priority>0.80</priority>
+        <image:image>
+            <image:loc>https://projethtml1.s3.eu-north-1.amazonaws.com/projet-1-html-css-js/assets/img/hotel-de-bourgtheroulde-logos-002.svg</image:loc>
+            <image:caption>Logo de l'Hotel Bourgtheroulde</image:caption>
+            <image:title>Hotel Bourgtheroulde</image:title>
+            <image:geo_location>Rouen, France</image:geo_location>
+        </image:image>
+</url>
+
+
+</urlset>
